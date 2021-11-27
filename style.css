@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 body{
     font-family: 'Lora', serif;
+    text-align: center;
+    color: #555555;
 }
 .header{
     width: 100vw;
@@ -37,11 +39,79 @@ body{
     justify-content: center;
     align-items: center;
 }
-.button{
+div.button{
     border: 2px;
     border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 2%;
 }
 a{
     text-decoration: none;
+    color: white;
+}
+div.services{
+    font-size: 20px;
+}
+div.services div.main{
+    background-color: white;
+    width: 100vw;
+    height: 70vh;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 25px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+span{
+    color: white;
+}
+.circle{
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+}
+.circlered{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-color: #C0301C;
+    background-color: #C0301C;
+    border-style: solid;
+}
+.typography{
+    float: left;
+    margin-left: 10%;
+    margin-top: 7%;
+    width: 30vh;
+}
+.rockSolidCode{
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 7%;
+    float: left;
+    width: 30vh;
+}
+.expertSupport{
+    float: left;
+    margin-right: 10%;
+    margin-top: 7%;
+    width: 30vh;
+}
+.bottom{
+    background-image: url(./img/bottom.png);
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
     color: white;
 }
